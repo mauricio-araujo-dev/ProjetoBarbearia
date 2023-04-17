@@ -1,0 +1,305 @@
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="imagens/logos/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="imagens/logos/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="imagens/logos/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="imagens/logos/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="imagens/logos/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="imagens/logos/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="imagens/logos/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="imagens/logos/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="imagens/logos/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="imagens/logos/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="imagens/logos/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="imagens/logos/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="imagens/logos/favicon-16x16.png">
+        <link rel="manifest" href="imagens/logos/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="imagens/logos/ms-icon-144x144.png">
+    <title>Prime Barber | Cadastro</title>
+    <style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    
+}
+.form-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #544a41;
+    padding: 1rem;
+}
+
+.form-image .a {
+    width: 100%;
+    margin: 0;  
+    padding: 0;
+    color: white;
+}
+.form-image .a a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.form-image a:hover{
+    color: #1c1c1c;
+    transition: 0.2s;
+}
+
+.form-image img {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 0.5rem 0rem 0rem 1rem;
+}
+
+.form-header {
+    color: #998675;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+.login-button h6{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 6px 0 4px;
+}
+
+.login-button button {
+    border: none;
+    background-color: #998675;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #544a41;
+}
+
+.login-button button  {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 7rem;
+    height: 0.3rem;
+    background-color: #998675;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0rem 0rem 0.5rem;
+    margin: 0 0 0 80px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-box input {
+    width: 80%;
+    margin: 0.2rem 0;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: whitesmoke;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #998675;
+}
+
+.input-box label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #998675;
+}
+
+.input-box input::placeholder {
+    color: #998675;
+}
+
+.continue-button button {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 4rem;
+    border: none;
+    background-color: #998675;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #544a41;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+}
+    </style>
+</head>
+
+<body>
+    
+<div class="container">
+        <div class="form-image">
+            <div class="a">
+                <a href="index.php"><i class="bi bi-house-door-fill"></i> Voltar para o Home</a>
+            </div>
+            <img src="imagens/logos/Logo_Branca.png" alt="">
+        </div>
+        <div class="form">
+            
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <h6> Já tem uma conta? </h6>
+                        <a href="usuariologarform.html"><button> Entrar</button></a>
+                    </div>
+                </div>
+                <form action="usuariocadastrarcodigo.php" method="post">
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input id="name" type="text" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" name="username" placeholder="Digite seu @user" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="Digite seu cpf" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="telefone" type="text" name="telefone" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Digite seu endereço" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Completar Cadastro</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

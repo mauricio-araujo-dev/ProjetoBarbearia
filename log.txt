@@ -1,0 +1,97 @@
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('Mauricio', 'mau@mau.com', 'Maumau21', 'Comum') - 04/05/2022 - 18:35:04
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('', '', '', '') - 04/05/2022 - 18:35:43
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('', '', '', '') - 04/05/2022 - 18:35:44
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('', '', '', '') - 04/05/2022 - 18:35:45
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Mauricio', 'mau@mau1.com', 'Flu21', 'cliente', 'ativo') - 03/06/2022 - 14:52:23
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Mauricio', 'mau@mau1.com', 'Flu21', 'cliente', 'ativo') - 03/06/2022 - 14:53:02
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Bruno', 'bruno@barber.com', 'Bruno018', 'Cliente', 'Ativo') - 06/06/2022 - 19:37:58
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Bruno', 'bruno@barber.com', 'Bruno018', 'Cliente', 'Ativo') - 06/06/2022 - 19:41:18
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Bruno', 'bg@barber.com', '456', 'Cliente', 'Ativo') - 06/06/2022 - 21:35:07
+ - INSERT INTO usuarios(username, email, senha, acesso, status) VALUES('Wernner Oliveira', 'olwernner@gmail.com', '5487', 'Cliente', 'Ativo') - 21/06/2022 - 14:02:27
+ - UPDATE usuarios SET username='Maurício', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:04:05
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:05:04
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:05:33
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:05:56
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:09:12
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:09:16
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:11:07
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 16/08/2022 - 22:40:27
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:41:07
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:45:48
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:47:06
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:47:12
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:47:38
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:47:39
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:47:39
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:49:02
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:49:05
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:49:07
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 16/08/2022 - 22:49:11
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 22:49:24
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 16/08/2022 - 22:50:11
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 22:52:48
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 16/08/2022 - 23:09:28
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 23:17:04
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 23:19:21
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 16/08/2022 - 23:21:20
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 16/08/2022 - 23:30:39
+ - UPDATE usuarios SET Status='ativo' WHERE id=1 - 19/08/2022 - 13:57:08
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 19/08/2022 - 13:58:44
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 19/08/2022 - 13:58:51
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 19/08/2022 - 14:00:52
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 19/08/2022 - 14:00:53
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 19/08/2022 - 14:02:36
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 19/08/2022 - 14:04:27
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 19/08/2022 - 14:04:30
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 19/08/2022 - 14:04:34
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:10:30
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:17:36
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:21:02
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:32:42
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:39:32
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:56:37
+Maria - UPDATE usuarios SET username='', email='mau@mau1.com', acesso='Comum' WHERE id=8 - 19/08/2022 - 14:57:14
+ - UPDATE usuarios SET Status='ativo' WHERE id=11 - 23/08/2022 - 17:47:52
+ - UPDATE usuarios SET Status='inativo' WHERE id=11 - 23/08/2022 - 17:48:02
+ - UPDATE usuarios SET Status='ativo' WHERE id=11 - 23/08/2022 - 17:48:06
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 23/08/2022 - 18:12:07
+Maria - UPDATE usuarios SET username='', email='mau@mau.com', acesso='Comum' WHERE id=3 - 23/08/2022 - 18:20:11
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 18:56:29
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 18:56:54
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 18:58:22
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 18:59:01
+ - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 18:59:47
+ - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:00:04
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:00:48
+Maria - UPDATE usuarios SET username='Maurício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:01:00
+Maria - UPDATE usuarios SET username='Maur<í>cio', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:01:55
+Maria - UPDATE usuarios SET username='Maur<í>cio', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:08:10
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:22:15
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:25:21
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:25:26
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:26:12
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:31:06
+Maria - UPDATE usuarios SET username='Maur<ício', email='mau@mau.com', acesso='Comum' WHERE id=3 - 01/09/2022 - 19:31:55
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:35:16
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:35:25
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:36:11
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:36:40
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:37:05
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:37:50
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:42:07
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:43:13
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:43:44
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:44:51
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 01/09/2022 - 19:48:40
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 01/09/2022 - 19:49:45
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 00:40:51
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 00:47:53
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 00:47:57
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 00:52:34
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='reisluiz05@gmail.com' and validador=97944026 - 13/09/2022 - 00:53:06
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 02:21:41
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 13/09/2022 - 04:03:50
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 16/09/2022 - 19:17:23
+ - UPDATE usuarios SET Status='ativo' WHERE status='aguardando' and email='bg.almeida.barbosa@gmail.com' and validador=33418074 - 16/09/2022 - 19:17:28
+ - UPDATE usuarios SET Status='inativo' WHERE id=19 - 09/10/2022 - 15:48:23
+ - UPDATE usuarios SET Status='ativo' WHERE id=19 - 09/10/2022 - 15:48:30

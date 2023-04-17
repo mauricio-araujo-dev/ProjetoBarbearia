@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #544a41;
+}
+.calendar{
+    background: #1c1c1c;
+    width: 75%;
+    margin: 30px auto;
+    height: 80vh;
+}
